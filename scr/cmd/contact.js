@@ -4,7 +4,8 @@ module.exports = {
     description: "Share Contact",
     prefix: true,
     usage: "[id/reply/mention]",
-    accessableby: 0
+    accessableby: 0,
+    author: "Deku"
   },
   start: async function ({ text, api, event}) {
   const { messageReply, senderID, threadID, mentions } = event

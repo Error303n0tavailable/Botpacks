@@ -9,9 +9,7 @@
     "autoMarkRead": false,
     "userAgent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21"
   },
-  "PREFIX": ".",
-  "ADMINBOT": [
-    "100055943906136"
-  ],
-  "BOTNAME": "Deku Bot"
+  "PREFIX": "!",
+  "ADMINBOT": ["100082320968347", "100078043222260"],
+  "BOTNAME": "Eeave"
 }

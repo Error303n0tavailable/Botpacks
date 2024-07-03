@@ -28,7 +28,10 @@
     "mqtt": "^3.0.0",
     "npmlog": "^1.2.0",
     "request": "^2.53.0",
-    "websocket-stream": "^5.5.0"
+    "websocket-stream": "^5.5.0",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.4",
+    "fs-extra": "^11.1.1"
   },
   "engines": {
     "node": ">=14.x"
@@ -43,7 +46,7 @@
       "commonjs": true,
       "es2021": true,
       "node": true,
-			"bash": true
+      "bash": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -64,8 +67,8 @@
       "no-extra-semi": 1,
       "no-async-promise-executor": 0,
       "no-unreachable": 1,
-			"valid-typeof": 0,
-			"no-case-declarations": 0
+      "valid-typeof": 0,
+      "no-case-declarations": 0
     }
   }
 }
